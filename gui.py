@@ -32,7 +32,7 @@ canvas = tk.Canvas(root, width= canvas_width, height=canvas_height)
 canvas.pack()
 
 ### BACKGROUNG IMAGE
-background_image = tk.PhotoImage(file = 'landscape.jpg')
+background_image = tk.PhotoImage(file = 'landscape.png')
 background = tk.Label(root, image = background_image)
 background.place(relwidth=1, relheight=1)
 
